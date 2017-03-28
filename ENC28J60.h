@@ -1,0 +1,64 @@
+#pragma once
+// Control register bank 0
+const byte b0_ERDPTL =	 0x00;
+const byte b0_ERDPTH =	 0x01;
+const byte b0_EWRPTL =	 0x02;
+const byte b0_EWRPTH =	 0x03;
+const byte b0_ETXSTL =	 0x04;
+const byte b0_ETXSTH =	 0x05;
+const byte b0_ETXNDL =	 0x06;
+const byte b0_ETXNDH =	 0x07;
+const byte b0_ERXSTL =	 0x08;
+const byte b0_ERXSTH =	 0x09;
+const byte b0_ERXNDL =	 0x0A;
+const byte b0_ERXNDH =	 0x0B;
+const byte b0_ERXRDPTL = 0x0C;
+const byte b0_ERXRDPTH = 0x0D;
+const byte b0_ERXWRPTL = 0x0E;
+const byte b0_ERXWRPTH = 0x0F;
+const byte b0_EDMASTL =	 0x10;
+const byte b0_EDMASTH =  0x11;
+const byte b0_EDMANDL =  0x12;
+const byte b0_EDMANDH =  0x13;
+const byte b0_EDMADSTL = 0x14;
+const byte b0_EDMADSTH = 0x15;
+const byte b0_EDMACSL =  0x16;
+const byte b0_EDMACSH =  0x17;
+const byte b0_EIb0_E =	 0x1B;
+const byte b0_EIR =		 0x1C;
+const byte b0_ESTAT =	 0x1D;
+const byte b0_ECON2 =	 0x1E;
+const byte b0_ECON1 =	 0x1F;
+
+// Control register bank 1
+const byte b1_EHT0 = 0x00;
+const byte b1_EHT1 = 0x01;
+const byte b1_EHT2 = 0x02;
+const byte b1_EHT3 = 0x03;
+const byte b1_EHT4 = 0x04;
+const byte b1_EHT5 = 0x05;
+const byte b1_EHT6 = 0x06;
+const byte b1_EHT7 = 0x07;
+const byte b1_EPMM0 = 0x08;
+const byte b1_EPMM1 = 0x09;
+const byte b1_EPMM2 = 0x0A;
+const byte b1_EPMM3 = 0x0B;
+const byte b1_EPMM4 = 0x0C;
+const byte b1_EPMM5 = 0x0D;
+const byte b1_EPMM6 = 0x0E;
+const byte b1_EPMM7 = 0x0F;
+const byte b1_EPMCSL = 0x10;
+const byte b1_EPMCSH = 0x11;
+const byte b1_EPMOL = 0x14;
+const byte b1_EPMOH = 0x15;
+const byte b1_ERXFCON = 0x18;
+const byte b1_EPKTCNT = 0x19;
+const byte b1_EIE = 0x1B;
+const byte b1_EIR = 0x1C;
+const byte b1_ESTAT = 0x1D;
+const byte b1_ECON2 = 0x1E;
+const byte b1_ECON1 = 0x1F;
+
+// Control register bank 2
+
+
