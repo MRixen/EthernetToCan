@@ -16,12 +16,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="EthernetToCan.ino" />
+    <None Include="ENC28J60.ino" />
+    <None Include="SpiCommunication.ino" />
+    <None Include="Mcp2515.ino" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.EthernetToCan.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ENC28J60.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MCP2515.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

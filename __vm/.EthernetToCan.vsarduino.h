@@ -51,4 +51,7 @@ extern "C" void __cxa_pure_virtual() {;}
 #undef PSTR
 #define PSTR(string_literal) ((const PROGMEM char *)(string_literal))")
 #include "EthernetToCan.ino"
+#include "ENC28J60.ino"
+#include "Mcp2515.ino"
+#include "SpiCommunication.ino"
 #endif
